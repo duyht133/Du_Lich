@@ -1,0 +1,181 @@
+/* nhỏ hơn 768px*/
+/* kích thước này mình canh chỉnh theo kích thước thực tế khi bật devtool */
+@media screen and (max-width: 785px) {
+  .header {
+    background-color: #556270;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .header a {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+  }
+  .left {
+    margin-left: 60px;
+  }
+  .left-brand {
+    margin-right: 40px;
+  }
+  .right {
+    margin-right: 60px;
+  }
+  .right-signup,
+  .right-login {
+    margin-right: 40px;
+  }
+
+  /* banner */
+  .imgbanner {
+    display: none;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 40px 80px;
+    position: static;
+    color: black;
+    font-family: "Lato", sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .text_ {
+    font-size: 70px;
+    font-family: 'Zilla Slab', serif;
+  }
+  .text_h1 {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  /* midle */
+  .header_midle h2 {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+  }
+  .header_midle p {
+    font-size: 20px;
+    padding-right: 80px;
+  }
+  .midle {
+    background-color: #ffffffff;
+    border-bottom: none;
+  }
+
+  .img_midle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img_left {
+    width: 75%;
+    /* margin-left: 80px; */
+    /* float: left; */
+  }
+  .img_mid {
+    display: block;
+    margin-top: 55px;
+    margin-left: 80px;
+    width: 75%;
+  }
+  .img_right {
+    margin-top: 55px;
+    width: 75%;
+  }
+
+  /* footer */
+  .footer {
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+  }
+  .footer_first,
+  .footer_secon,
+  .footer_end {
+    padding-left: 80px;
+    margin-bottom: 30px;
+    font-size: 45px;
+  }
+  .footer_end br {
+    display: none;
+  }
+  .footer h3 {
+    font-size: 70px;
+    font-weight: bolder;
+  }
+  .footer a {
+    text-decoration: underline;
+  }
+  .footer p {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+}
+
+/* kích thước nhỏ hơn */
+@media screen and (max-width: 572px) {
+  .header {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+  }
+  .header a {
+    font-size: 20px;
+  }
+  .left,
+  .right {
+    margin: 0px;
+    padding: 0px;
+  }
+  .left-brand {
+    margin-right: 10px;
+  }
+  .right-signup,
+  .right-login {
+    margin-right: 20px;
+  }
+
+  .text {
+    margin: 0px;
+    padding: 20px;
+  }
+  .text_ {
+    font-size: 40px;
+  }
+  .text_h1 {
+    font-size: 20px;
+  }
+
+  .midle {
+    margin-left: -60px;
+    padding-left: -60px;
+  }
+  .header_midle h2,
+  p {
+    font-size: 40px;
+  }
+
+  .footer_first,
+  .footer_secon,
+  .footer_end {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 571px) {
+  .header a {
+    font-size: 15px;
+  }
+  .right-signup,
+  .right-login {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 400px) and (min-width:0px) {
+  .header a {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,96 @@
+/*  768px đến 992px */
+/* kích thước này mình canh chỉnh theo kích thước thực tế khi bật devtool */
+@media screen and (max-width: 1009px) and (min-width: 785px) {
+    /* header */
+    .header {
+      background-color: #556270;
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+    .header a {
+      color: white;
+      font-size: 16px;
+    }
+    .left {
+      margin-left: 60px;
+    }
+    .right {
+      margin-right: 60px;
+    }
+  
+    /* banner */
+    .imgbanner {
+      display: none;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      padding: 60px 0 40px 80px;
+      position: static;
+      color: black;
+      font-family: "Lato", sans-serif;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .text_ {
+      font-size: 45px;
+      font-family: "Roboto", sans-serif;
+    }
+    .text_h1 {
+      font-size: 20px;
+      padding-top: 40px;
+    }
+  
+    /* midle */
+    .header_midle h2 {
+      font-size: 45px;
+      font-family: "Roboto", sans-serif;
+    }
+    .header_midle p {
+      font-size: 19px;
+    }
+    .midle {
+      background-color: #ffffffff;
+      border-bottom: none;
+    }
+  
+    .img_midle {
+      width: 100%;
+      display: block;
+    }
+    .img_left {
+      width: 36.5%;
+      margin-left: 80px;
+      float: left;
+    }
+    .img_mid {
+      width: 36.5%;
+    }
+    .img_right {
+      margin-top: 55px;
+      width: 36.5%;
+    }
+  
+    /* footer */
+    .footer {
+      flex-direction: column;
+      background-color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      width: 100%;
+    }
+    .footer_first,
+    .footer_secon,
+    .footer_end {
+      padding-left: 40px;
+      margin-bottom: 40px;
+      font-size: 45px;
+    }
+    .footer br {
+      display: none;
+    }
+    .footer a {
+      text-decoration: underline;
+    }
+    .footer p {
+      margin-bottom: 10px;
+    }
+  }
