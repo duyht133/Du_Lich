@@ -28,7 +28,10 @@
     height: 570px;
     background-color: rgba(145, 146, 145, 0.781);
   }
-  
+  .homepage a{
+    text-decoration: none;
+    color: black;
+  }
   .container h1 {
     font-size: 40px;
     border: none;
