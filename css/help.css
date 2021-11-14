@@ -28,6 +28,10 @@ img {
   height: 500px;
   background-color: rgba(109, 161, 91, 0.781);
 }
+.homepage a{
+  text-decoration: none;
+  color: black;
+} 
 .container h1 {
   display: flex;
   justify-content: center;
